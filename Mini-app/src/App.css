@@ -1,0 +1,118 @@
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #2c3e50;
+  color: white;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+.MyMoves {
+  margin: 20px 20px 0px 260px;
+  border: 1px solid #ffffff;
+  padding: 50px;
+
+}
+
+.logo {
+  padding: 20px;
+  background-color: #1a252f;
+  text-align: center;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.menu-item {
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #c7291e;
+}
+
+.mymovesheader-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.mymovesheader-2{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  
+}
+.addInfo-row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.edit-addinfo{
+  background-color: black;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.row-a2{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.row-a2 button{
+  padding: 10px;
+}
+.disclaimer{
+  border-bottom: 1px solid gray;
+}
+.mymovesheader-1 div{
+padding: 20px;
+}
+.move-details{
+  border: 1px solid #c7291e;
+  color: #c7291e;
+  background-color: #ffffff;
+}
+.quotesawaiting{
+  border: 1px solid #c7291e;
+  background-color: #c7291e;
+  color: #ffffff;
+}
+
+.house-header{
+  color: #c7291e;
+}
+.inventory-box{
+  border: 1px solid #ffffff;
+  background-color: #b6cddb;
+  height: 24px;
+  width: 100%;
+  padding: 10px;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
